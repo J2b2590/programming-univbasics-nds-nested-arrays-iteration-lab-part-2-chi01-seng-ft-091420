@@ -12,7 +12,7 @@ def find_min_in_nested_arrays(src)
         smallest = src[row_count][el_count]
         small_num_array << src[row_count][el_count]
       end
-      
+
 
       el_count += 1
     end
