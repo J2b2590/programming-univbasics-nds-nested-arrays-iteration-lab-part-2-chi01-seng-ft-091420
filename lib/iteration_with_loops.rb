@@ -6,13 +6,11 @@ def find_min_in_nested_arrays(src)
 
   while row_count < src.count do
     el_count = 0
-    smallest = src[0]
     while el_count < src[row_count].count do
-      if src[row_count][el_count] < src[0]
-        smallest = src[row_count][el_count]
+      if src[row_count][el_count] = src[row_count][el_count] + 1
         small_num_array << src[row_count][el_count]
       end
-
+      puts small_num_array
 
       el_count += 1
     end
